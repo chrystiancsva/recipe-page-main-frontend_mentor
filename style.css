@@ -140,4 +140,30 @@ span{
     font-weight: bolder;
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table tr {
+  border-bottom: 1px solid #ddd;
+}
+
+table td {
+  padding: 15px 20px;
+  font-size: 12px;
+  font-family: 'Inter', sans-serif;
+}
+
+table td:first-child {
+  color: #666;
+}
+
+table td:last-child {
+  color: brown;
+  font-weight: bold;
+}
+
+
 
